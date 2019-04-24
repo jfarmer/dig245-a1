@@ -14,7 +14,7 @@ Using [Visual Studio Code](https://code.visualstudio.com)
 4. Save your work and view/refresh it in the browser to see your changes. 
 5. Use HTML tags to make your text readable. Experiment with some unfamiliar [HTML tags](https://www.w3schools.com/tags/ref_byfunc.asp)
 
-Bonus (5%): Add additional content using the following tags for extra points! <code>, <blockquote>, <img>, and two more.
+Bonus (5%): Add additional content using the following tags for extra points! `<code>`, `<blockquote>`, `<img>`, and two more.
 
 ### Submission
 - Deploy your work using `surge.sh`
