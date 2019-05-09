@@ -12,5 +12,7 @@ Use HTML tags to make your text readable. Experiment with some unfamiliar [HTML 
 Bonus: Add additional content using the following tags for extra points! `<code>`, `<blockquote>`, `<img>`, and two more.
 
 ## Submission
-- Deploy your work to a publicly available location and submit this URL as "proof of work"
-- Submit a pull request (PR) to this repo on a branch labeled with your full name: `firstname-lastname`
+- Create a new local branch labeled with your full name: `firstname-lastname`
+- Commit all your changes to this branch and push it up to this repo with `git push origin your-branch-name`
+- Deploy your work to a publicly available location using `surge.sh` (or similar)
+- Submit your public URL as "proof of work" to Canvas with any comments you'd like to add
