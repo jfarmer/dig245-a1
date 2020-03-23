@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(133, 175, 175);
+}
+
+.questions {
+  border-top: darkgrey;
+  border-style: groove;
+  color: whitesmoke;
+}
+
+h2{
+  color: blanchedalmond;
+}
