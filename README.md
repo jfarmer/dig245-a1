@@ -3,7 +3,7 @@
 Edit the `index.html` file with the following:
 
 - Your name, year of school, major (or intended major)
-- Why are you taking this course? 
+- Why are you taking this course?
 - What experience do you have creating content for the web or programming?
 - What are your goals in this course?
 - Select three projects from the web you consider to be interesting for artistic, cultural, or other reasons. List each project with its title, a link to it, and two to three sentences describing the project and why it is remarkable.
