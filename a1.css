@@ -2,19 +2,17 @@ html {
   background-color: black;
   font-size: 18px;
   color: white;
+white-space: pre-line;
   }
   h1 {
     font-size: 24px;
+    text-align: center;
   }
-   h2 {
+   p {
      font-size: 24px;
-   }
-   h3 {
-     font-size: 24px;
-   }
-   h4 {
-     font-size: 24px;
-   }
-   h5 {
-     font-size: 24px;
+     white-space: pre-line;
+     width: 50%;
+     margin: 0px;
+     padding: 100px;
+     line-height: 200%;
    }
