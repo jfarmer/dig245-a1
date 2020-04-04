@@ -16,7 +16,7 @@
       font-style: italic;
     }
     h2 {
-      font-size: 22;
+      font-size: 22px;
       padding: 30px;
     }
     body {
@@ -36,8 +36,15 @@
       font-size: 22px;
     }
     h4 {
-      font-size: 28;
-      color:
+      font-size: 28px;
+    }
+
+    ol.project-list {
+      list-style-type: none;
+    }
+
+    .project-list li h4 a {
+      color: yellow;
     }
   </style>
 </head>
@@ -45,7 +52,7 @@
 <body>
   <header>
     <h1> Hi, I'm Pat Sullivan </h1>
-    <h2> I am a Junior and am majoring in PPE - Philosophy, Politics, and Economics - through the Center for Interdisciplinary Studies <br /> <small> This semester I took DIG 245 and learned about web development </h2>
+    <h2> I am a Junior and am majoring in PPE - Philosophy, Politics, and Economics - through the Center for Interdisciplinary Studies <br /> <small> This semester I took DIG 245 and learned about web development </small> </h2>
   </header>
   <div>
     <h3> This course </h3>
@@ -55,14 +62,22 @@
     <h3>My experience</h3>
     <p> I've learned how to write and style a page using HTML and CSS. I can <code>manipulate the text</code> and layout a web page using HTML tags. I can then style my page using CSS, changing the size, shape, color, background, and spacing of the objects I've created in HTML.</p>
   </div>
-  <div>
+  <div id = "cool-projects">
     <h3> Some Cool Web Projects </h3>
-    <h4><a href="https://ncov2019.live/data" target="_blank"> ncov2019.live Global Corona Virus tracker </a></h4>
-    <p> This website displays accurate real-time data about the Corona Virus outbreak. It has clearly delineated sections for data on different regions, a side-bar "Quick Facts" section, and an intuitive menu bar across the top.  </p>
-    <h4><a href="https://www.audubon.org/" target="_blank"> National Audubon Society Website </a></h4>
-    <p> This is a beautiful and easy-to-use website for a US environmental organization that protects birds and other wildlife. It has a strong design that allows for easy selection of articles and other pages via pop-down menus. </p>
-    <h4><a href="https://www.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_dvm_us_eg_cs_nav_rec_T1" target="_blank"> Amazon Prime Video </a></h4>
-    <p> Amazon Prime Video's landing page is heavy on images and allows users to hover over each movie/tv show to get more information about the selection. </p>
+    <ol class= "project-list">
+      <li>
+        <h4><a href="https://ncov2019.live/data" target="_blank"> ncov2019.live Global Corona Virus tracker </a></h4>
+        <p> This website displays accurate real-time data about the Corona Virus outbreak. It has clearly delineated sections for data on different regions, a side-bar "Quick Facts" section, and an intuitive menu bar across the top.  </p>
+      </li>
+      <li>
+        <h4><a href="https://www.audubon.org/" target="_blank"> National Audubon Society Website </a></h4>
+        <p> This is a beautiful and easy-to-use website for a US environmental organization that protects birds and other wildlife. It has a strong design that allows for easy selection of articles and other pages via pop-down menus. </p>
+      </li>
+      <li>
+        <h4><a href="https://www.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_dvm_us_eg_cs_nav_rec_T1" target="_blank"> Amazon Prime Video </a></h4>
+        <p> Amazon Prime Video's landing page is heavy on images and allows users to hover over each movie/tv show to get more information about the selection. </p>
+      </li>
+    </ol>
   </div>
 
 </body>
