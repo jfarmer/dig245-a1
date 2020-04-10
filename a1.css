@@ -1,0 +1,18 @@
+html {
+  background-color: black;
+  font-size: 18px;
+  color: white;
+white-space: pre-line;
+  }
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+   p {
+     font-size: 24px;
+     white-space: pre-line;
+     width: 50%;
+     margin: 0px;
+     padding: 100px;
+     line-height: 200%;
+   }
